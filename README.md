@@ -4,7 +4,7 @@ Conforme solicitado, nesse git está o projeto de automação do site: https://q
 
 Foi utilizada a versão 10.7 do Cypress com cucumber, que gerou bugs que comentarei durante a próxima etapa, mas esses bugs são do próprio sistema, já reportei para os criados da biblioteca do cypress-cucumber-preprocessor e para o cypress.io.
 
-Segue abaixo um tutorial para execução e instalaçã do Cypress:
+Segue abaixo um tutorial para execução e instalação do Cypress:
 
 Necessário ter o node.js instalado e com as variáveis de ambiente previamente configuradas.
 
