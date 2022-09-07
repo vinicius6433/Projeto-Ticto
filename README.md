@@ -1,1 +1,3 @@
-Conforme solicitado o relatório em vídeo(.mp4) e em HTML ![image](https://user-images.githubusercontent.com/79025625/188961817-ea696606-cfb1-45c0-b41d-0664a62b1142.png)
+Prezados,
+
+Conforme solicitado, nesse git está o projeto do site: https://qa-test.ticto.io/, cujo foram cobertas todas as instruções, da n°1 até a n°7, como também solicitado, o  relatório em vídeo(.mp4) e em HTML(optei por esse formato, pois ele descreve todas as funcionalidades com o timing de cada uma), segue uma imagem do relatório:  ![image](https://user-images.githubusercontent.com/79025625/188962256-f2a44cfb-2908-42f0-8728-683398e16952.png)
