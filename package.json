@@ -1,0 +1,30 @@
+{
+  "name": "projeto-ticto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "cypress:run": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  },
+    "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/e2e/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^2.0.0"
+  }
+}

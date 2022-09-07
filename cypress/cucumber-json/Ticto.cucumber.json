@@ -1,0 +1,392 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Desafio Ticto",
+    "line": 2,
+    "id": "desafio-ticto",
+    "tags": [],
+    "uri": "Ticto.feature",
+    "elements": [
+      {
+        "id": "desafio-ticto;realizar-teste-de-mensagens-de-erro:-nome-invalido,-email-e-senha-obrigatorios",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Realizar teste de mensagens de erro: nome invalido, email e senha obrigatorios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 3082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu preencha os dados de nome \"t\", email \" \",senha \" \"",
+            "result": {
+              "status": "passed",
+              "duration": 705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "acionar o botao de cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 10,
+            "name": "valido as mensagens de erro \"nome invalido\", \"email obrigatorio\", \"senha obrigatoria\"",
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "desafio-ticto;realizar-teste-de-mensagens-de-erro:-nome-e-email-obrigatorios,-senha-com-mais-de-255-caracteres",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Realizar teste de mensagens de erro: nome e email obrigatorios, senha com mais de 255 caracteres",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 13,
+            "name": "que eu preencha os dados de nome \" \", email \" \",senha \"senha com mais de 255 caracteres\"",
+            "result": {
+              "status": "passed",
+              "duration": 26593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "acionar o botao de cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 2773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 15,
+            "name": "valido as mensagens de erro \"nome obrigatorio\", \"email obrigatorio\", \"senha com mais de 255 caracteres\"",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "desafio-ticto;realizar-teste-de-mensagens-de-erro:-nome-e-email-obrigatorios,-senha-com-menos-de-8-caracteres",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Realizar teste de mensagens de erro: nome e email obrigatorios, senha com menos de 8 caracteres",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 18,
+            "name": "que eu preencha os dados de nome \" \", email \" \",senha \"haha\"",
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 19,
+            "name": "acionar o botao de cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 1207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 20,
+            "name": "valido as mensagens de erro \"nome obrigatorio\", \"email obrigatorio\", \"senha com menos de 8 caracteres\"",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "desafio-ticto;realizar-cadastro",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Realizar cadastro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 23,
+            "name": "que eu preencha os dados de nome \"Vinícius Moreira\", email \"vmoliveira2@ticto.io\",senha \"me-contrata\"",
+            "result": {
+              "status": "passed",
+              "duration": 1091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 24,
+            "name": "acionar o botao de cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 25,
+            "name": "valido a mensagem \"Usuário cadastrado com sucesso.\"",
+            "result": {
+              "status": "passed",
+              "duration": 1183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 26,
+            "name": "valido os valores inseridos na GRID",
+            "result": {
+              "status": "passed",
+              "duration": 2274000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "desafio-ticto;realizar-testes-de-mensagens-de-erro-na-funcionalidade-de-alterar",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Realizar testes de mensagens de erro na funcionalidade de alterar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 29,
+            "name": "que eu acione o botao de Alterar",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 30,
+            "name": "preencher os campos alterados com \" \" e \" \"",
+            "result": {
+              "status": "passed",
+              "duration": 2024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 31,
+            "name": "valido as mensagens de erro \"nome obrigatorio\", \" \", \" \"",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "desafio-ticto;alterar-cadastro",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Alterar cadastro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 35,
+            "name": "que eu acione o botao de Alterar",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 36,
+            "name": "preencher os campos alterados com \"Nome alterado\" e \"vmoliveira3@ticto.io\"",
+            "result": {
+              "status": "passed",
+              "duration": 1926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 37,
+            "name": "valido a mensagem \"Usuário salvo com sucesso.\"",
+            "result": {
+              "status": "passed",
+              "duration": 1392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 38,
+            "name": "valido os valores inseridos na GRID",
+            "result": {
+              "status": "passed",
+              "duration": 2261000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "desafio-ticto;excluir-usuario-cadastrado",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Excluir usuario cadastrado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "eu estou logado e com a pagina carregada",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 41,
+            "name": "que eu tenha um usuario cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 42,
+            "name": "acionar o botao de excluir",
+            "result": {
+              "status": "passed",
+              "duration": 1126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 43,
+            "name": "valido a mensagem \"Usuário removido com sucesso.\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 44,
+            "name": "valido se o usuario foi removido",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

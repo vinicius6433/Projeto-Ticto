@@ -1,0 +1,9 @@
+{
+    "nomeInvalido":"Insira um Nome e Sobrenome válido.",
+    "nomeCampoObrigatorio": "O campo Nome é obrigatório.",
+    "emailCampoObrigatorio":"O campo Email é obrigatório.",
+    "senhaCampoObrigatorio": "O campo Password é obrigatório.",
+    "senhaComMaisDe255Caracteres": "O campo Password deve ter no máximo 255 caracteres",
+    "senhaComMenosDe8Caracteres": "O campo Password deve ter no minimo 8 caracteres."
+
+}
