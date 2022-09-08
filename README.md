@@ -10,12 +10,14 @@ node_modules\cypress-cucumber-preprocessor\lib\stepDefinitionPath.test.js node_m
 
 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Modificar ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Para versão 10+ susbstituir o nome "Integration" para "e2e"
 
-node_modules\cypress-cucumber-preprocessor\lib\stepDefinitionPath.test.js
 
-Linha 11
-node_modules\cypress-cucumber-preprocessor\lib\stepDefinitionPath.js
+Linha 11: node_modules\cypress-cucumber-preprocessor\lib\stepDefinitionPath.test.js
 
-Linha 16
+
+Linha 16: node_modules\cypress-cucumber-preprocessor\lib\stepDefinitionPath.js
+
+
+![image](https://user-images.githubusercontent.com/79025625/189151315-a7744dcb-7d75-44c9-8249-77ff3fc6756a.png)
 
 
 
